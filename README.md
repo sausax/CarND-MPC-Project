@@ -7,12 +7,12 @@ This is a solution to Model Predictive Control programming assignment for Self-D
 
 The model uses following equation to calculate the state for next timestamp based on the state from previous timestamp. 
 
-x_t_1 = x_t + v_t * cos(psi_t) * dt
-y_t_1 = y_t + v_t * sin(psi_t) * dt
-psi_t_1 = psi_t + (v_t/L_f) * delta_t * dt
-v_t_1 = v_t + a_t * dt
-cte_t_1 = f(x_t) - y_t + (v_t * sin(epsi_t) * dt)
-epsi_t_1 = psi_t - psid_t + ((v_t/L_f) * delta_t * dt)
+x_t_1 = x_t + v_t * cos(psi_t) * dt  
+y_t_1 = y_t + v_t * sin(psi_t) * dt  
+psi_t_1 = psi_t + (v_t/L_f) * delta_t * dt   
+v_t_1 = v_t + a_t * dt   
+cte_t_1 = f(x_t) - y_t + (v_t * sin(epsi_t) * dt)   
+epsi_t_1 = psi_t - psid_t + ((v_t/L_f) * delta_t * dt)   
 
 ## Timestep length and duration
 

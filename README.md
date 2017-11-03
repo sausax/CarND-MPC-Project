@@ -27,5 +27,5 @@ I preprocess the waypoint received from simulator transform them for car's persp
 
 To deal with 100ms latency in actuators I did two main things
 
-* Use a/delta values from 2 time step back when calculating new state. (MPC.cpp 78 - 81)
-* Add extra penalty for steer and acceleration to punish sharp change. 
+* Used a/delta values from 2 time step back when calculating new state. (MPC.cpp 78 - 81)
+* Added extra penalty for steer and acceleration to punish sharp change. 
